@@ -93,4 +93,37 @@ body {
 .keys.remove {
     animation: keys_animation 0.5s forwards ;
 }
+@keyframes keys_animation {
+    0% {
+        background-color: #333;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+body.active {
+    background-color: rgb(54,54,54);
+}
+
+.night_mode {
+    width: 80px;
+    height: 30px;
+    background-color: #e6e6e6;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.night_mode.active {
+    background-color: #222222;
+}
+
 
