@@ -37,3 +37,11 @@ window.addEventListener('keydown', function(e) {
     }
 })
 
+window.addEventListener('keyup', function(e) {
+    for(let i = 0; i < keys.length; i++) {
+        if(e.key == keys[i].getAttribute('keyname' ) || e.key == keys[i].getAttribute('lowerCaseName')) {
+            keys[i].classList.remove('active')
+            keys[i].classList.add('remove')
+        }
+
+
