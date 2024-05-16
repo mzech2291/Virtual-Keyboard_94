@@ -125,5 +125,44 @@ body.active {
 .night_mode.active {
     background-color: #222222;
 }
+.toggle_circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(54,54,54);
+    border-radius: 50px;
+    margin: 0 5px;
+    position: absolute;
+    left: 0;
+    transition: .2s;
+}
+
+.toggle_circle.active {
+    left: 60%;
+    background-color: #fff;
+}
+
+.keyboard_wrapp.active {
+    background-color: #585858;
+}
+
+.keys.keys_night {
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+.text.active {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.keys.keys_night.active {
+    background-color: #fff;
+    color: #333;
+}
+
+.keys.keys_night.remove {
+    animation: keys_night_animation 0.5s forwards;
+}
+
 
 
