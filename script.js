@@ -51,5 +51,14 @@ window.addEventListener('keyup', function(e) {
             shift_right.classList.remove('active')
             shift_right.classList.remove('remove')
         }
+        if(e.code == 'ShiftRight') {
+            shift_left.classList.remove('active')
+            shift_left.classList.remove('remove')
+        }
+        setTimeout(()=> {
+            keys[i].classList.remove('remove')
+        },200)
+    }
+})
 
 
