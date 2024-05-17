@@ -163,6 +163,16 @@ body.active {
 .keys.keys_night.remove {
     animation: keys_night_animation 0.5s forwards;
 }
+@keyframes keys_night_animation {
+    0%{
+        background-color: #fff;
+        color: #000;
+    }
+    100% {
+        background-color: #333;
+        color: #fff;
+    }
+}
 
 
 
