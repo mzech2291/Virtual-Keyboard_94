@@ -173,6 +173,16 @@ body.active {
         color: #fff;
     }
 }
+.change_light_color {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
