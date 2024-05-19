@@ -183,6 +183,13 @@ body.active {
     justify-content: center;
     align-items: center;
 }
+.colors_input {
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
 
 
 
