@@ -190,6 +190,11 @@ body.active {
     outline: none;
     background-color: transparent;
 }
+.keyboard_lights {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 
 
